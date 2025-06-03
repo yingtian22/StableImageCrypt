@@ -3,6 +3,8 @@ An image encryption algorithm based on chaotic jumping and parallel encoding.
 
 [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242097) | [**Project Page**](https://github.com/yingtian22/StableImageCrypt)
 
+> 🚧 Our code is currently being cleaned up and will be released soon. Stay tuned!
+
 ---
 
 ## 📝 Brief
@@ -16,3 +18,19 @@ Key innovations include:
 - **High Security and Robustness**: Demonstrates strong resistance to plaintext attacks and suitability across diverse image types and sizes.
 
 This approach achieves **enhanced security**, **high sensitivity to input**, and strong **applicability in real-world image encryption scenarios**.
+
+## 📄 How to Cite
+
+If you use this work in your research, please cite the following paper:
+
+```bibtex
+@article{zhang2023stable,
+  title={Stable image encryption algorithm based on expanded one-dimensional chaotic jumping and parallel encoding operation grouping},
+  author={Zhang, Tianshuo and Ma, Yiqun},
+  journal={IEEE Access},
+  volume={11},
+  pages={108746--108760},
+  year={2023},
+  publisher={IEEE}
+}
+```
