@@ -1,0 +1,40 @@
+function [outputArg1] = ImagBest(I)
+test(1)= 8-entropy(I(:,:,1))+test_x_square_uniform(I(:,:,1));
+test(2)= 8-entropy(I(:,:,2))+test_x_square_uniform(I(:,:,2));
+test(3)= 8-entropy(I(:,:,3))+test_x_square_uniform(I(:,:,3));
+test(4)= 8-entropy(I(:,:,4))+test_x_square_uniform(I(:,:,4));
+test(5)= 8-entropy(I(:,:,5))+test_x_square_uniform(I(:,:,5));
+test(6)= 8-entropy(I(:,:,6))+test_x_square_uniform(I(:,:,6));
+test(7)= 8-entropy(I(:,:,7))+test_x_square_uniform(I(:,:,7));
+test(8)= 8-entropy(I(:,:,8))+test_x_square_uniform(I(:,:,8));
+test(9)= 8-entropy(I(:,:,9))+test_x_square_uniform(I(:,:,9));
+test(10)= 8-entropy(I(:,:,10))+test_x_square_uniform(I(:,:,10));
+test(11)= 8-entropy(I(:,:,11))+test_x_square_uniform(I(:,:,11));
+test(12)= 8-entropy(I(:,:,12))+test_x_square_uniform(I(:,:,12));
+test(13)= 8-entropy(I(:,:,13))+test_x_square_uniform(I(:,:,13));
+test(14)= 8-entropy(I(:,:,14))+test_x_square_uniform(I(:,:,14));
+test(15)= 8-entropy(I(:,:,15))+test_x_square_uniform(I(:,:,15));
+test(16)= 8-entropy(I(:,:,16))+test_x_square_uniform(I(:,:,16));
+test(17)= 8-entropy(I(:,:,17))+test_x_square_uniform(I(:,:,17));
+test(18)= 8-entropy(I(:,:,18))+test_x_square_uniform(I(:,:,18));
+test(19)= 8-entropy(I(:,:,19))+test_x_square_uniform(I(:,:,19));
+test(20)= 8-entropy(I(:,:,20))+test_x_square_uniform(I(:,:,20));
+test(21)= 8-entropy(I(:,:,21))+test_x_square_uniform(I(:,:,21));
+test(22)= 8-entropy(I(:,:,22))+test_x_square_uniform(I(:,:,22));
+test(23)= 8-entropy(I(:,:,23))+test_x_square_uniform(I(:,:,23));
+test(24)= 8-entropy(I(:,:,24))+test_x_square_uniform(I(:,:,24));
+test(25)= 8-entropy(I(:,:,25))+test_x_square_uniform(I(:,:,25));
+test(26)= 8-entropy(I(:,:,26))+test_x_square_uniform(I(:,:,26));
+test(27)= 8-entropy(I(:,:,27))+test_x_square_uniform(I(:,:,27));
+test(28)= 8-entropy(I(:,:,28))+test_x_square_uniform(I(:,:,28));
+test(29)= 8-entropy(I(:,:,29))+test_x_square_uniform(I(:,:,29));
+test(30)= 8-entropy(I(:,:,30))+test_x_square_uniform(I(:,:,30));
+test(31)= 8-entropy(I(:,:,31))+test_x_square_uniform(I(:,:,31));
+test(32)= 8-entropy(I(:,:,32))+test_x_square_uniform(I(:,:,32));
+min=1;
+for i=1:32
+    if test(i)<test(min)
+        min=i;
+    end
+end
+outputArg1=min;

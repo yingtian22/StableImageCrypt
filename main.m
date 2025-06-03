@@ -1,0 +1,21 @@
+%%加密算法
+clc;
+clear;
+%%输入加密图像
+I=imread('C:\Users\86182\Desktop\standard_test_images\standard_test_images\livingroom.tif');
+I=I(:,:,1);
+miyao=KeyGeneration(I);
+%%图像置乱
+I2 = Scrambling(I,miyao(1),miyao(2));
+%%图像加密
+I3=ImagEncryption(I2,miyao(1),miyao(2));
+%%寻找最优解
+I4=I3(:,:,ImagBest(I3));
+%图像还原
+I5=ImagEncryptionRestoration(I4,miyao(1),miyao(2),8,4);
+%图像置乱还原
+I6=ScramblingRestoration(I5,miyao(1),miyao(2));
+subplot(221),imshow(I),title('原图像');
+subplot(222),imshow(I2),title('置乱图像');
+subplot(223),imshow(I4),title('密文图像');
+subplot(224),imshow(I6),title('还原图像');
