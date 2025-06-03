@@ -23,7 +23,9 @@ This approach achieves **enhanced security**, **high sensitivity to input**, and
 
 The image encryption workflow is illustrated in the diagram below.
 
-![Encryption Process](Figures/encryption_proces.png)
+<div style="background-color: white; display: inline-block; padding: 5px;">
+  <img src="Figures/encryption_process.png" alt="Encryption Process" />
+</div>
 
 The process consists of the following stages:
 
