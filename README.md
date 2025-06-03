@@ -35,6 +35,16 @@ The process consists of the following stages:
 
 This method combines **chaotic dynamics, parallel encoding**, and **adaptive selection** to deliver robust, non-crackable image encryption suitable for diverse applications.
 
+## 📈 Results
+
+The figure below shows the encryption and decryption results of five different 512 × 512 grayscale images using the proposed algorithm.
+
+- The encrypted images appear as noise-like patterns, effectively concealing all details of the original images. Regardless of complex textures or diverse content, the ciphertext reveals no information about the plaintext.
+- After decryption, the images are fully and losslessly restored, demonstrating the lossless nature of the algorithm.
+
+These results confirm the method’s strong security and accurate recovery across various grayscale images.
+
+![Encryption and Decryption Results](Figures/Encryption_and_decryption_of_gray_scale_images.png)
 
 ## 📄 How to Cite
 
