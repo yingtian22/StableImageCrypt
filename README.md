@@ -19,6 +19,23 @@ Key innovations include:
 
 This approach achieves **enhanced security**, **high sensitivity to input**, and strong **applicability in real-world image encryption scenarios**.
 
+### 🔐 Overall Encryption Process
+
+The image encryption workflow is illustrated in the diagram below.
+
+![Encryption Process](Figures/Schematic diagram of the overall encryption process.png)
+
+The process consists of the following stages:
+
+1. **Hashing**: Two hashing methods are applied to the plaintext image to generate unique and sensitive initial values.
+2. **Key Generation**: The hash outputs are used to embed a key into two **expanded one-dimensional chaotic systems**.
+3. **Scrambling (PORJ)**: Using the proposed **Parallel One-dimensional Random Jumping (PORJ)** algorithm, the image is spatially scrambled to destroy recognizable structure.
+4. **Diffusion (DEOB)**: Multiple ciphertexts are generated in parallel via **Dynamic Encoding and Optimal Bit-selection (DEOB)** diffusion.
+5. **Selection**: From the candidate ciphertexts, the algorithm selects the most **stable and secure output**, ensuring high resistance to cryptanalysis and minimizing encryption instability.
+
+This method combines **chaotic dynamics, parallel encoding**, and **adaptive selection** to deliver robust, non-crackable image encryption suitable for diverse applications.
+
+
 ## 📄 How to Cite
 
 If you use this work in your research, please cite the following paper:
