@@ -23,7 +23,7 @@ This approach achieves **enhanced security**, **high sensitivity to input**, and
 
 The image encryption workflow is illustrated in the diagram below.
 
-![Encryption Process](Figures/Schematic diagram of the overall encryption process.png)
+![Encryption Process](Figures/encryption_process.png)
 
 The process consists of the following stages:
 
