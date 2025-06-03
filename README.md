@@ -1,9 +1,7 @@
-# StableImageCrypt
+![1748937307510](https://github.com/user-attachments/assets/86f48c1e-d596-45ae-9ba3-40ea03e9162f)# StableImageCrypt
 An image encryption algorithm based on chaotic jumping and parallel encoding.
 
 [**Paper**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10242097) | [**Project Page**](https://github.com/yingtian22/StableImageCrypt)
-
-> 🚧 Our code is currently being cleaned up and will be released soon. Stay tuned!
 
 ---
 
@@ -24,7 +22,7 @@ This approach achieves **enhanced security**, **high sensitivity to input**, and
 The image encryption workflow is illustrated in the diagram below.
 
 <div style="background-color: white; display: inline-block; padding: 5px;">
-  <img src="Figures/encryption_process.png" alt="Encryption Process" />
+  <img src="Figures/encryption_proces.png" alt="Encryption Process" />
 </div>
 
 The process consists of the following stages:
